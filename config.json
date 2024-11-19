@@ -1886,6 +1886,18 @@
         "https://raw.githubusercontent.com/tim-hub/tiny-cn-blocklist-replenish/master/others.txt"],
       "pack": ["liteprivacy", "gambling"],
       "level": [0, 1]
+    },
+    {
+      "vname": "leminhhieuctvn",
+
+      "group": "Security",
+      "subg": "",
+
+      "format": "abp",
+      "url": "https://raw.githubusercontent.com/leminhhieuctvn/hosts/refs/heads/main/hosts",
+
+      "pack": [],
+      "level": []
     }
   ]
 }
