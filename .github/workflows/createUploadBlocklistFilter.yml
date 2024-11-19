@@ -129,6 +129,11 @@ jobs:
         cd "$OUTDIR" && ls -lhtr
       env:
         OUTDIR: ${{ env.OUTDIR }}
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: trie-data-${{ matrix.codec }}
+        path: ${{ env.OUTDIR }}
     - name: 🏆 Upload?
       # stackoverflow.com/a/68317611
       # github.com/actions/runner/issues/866
